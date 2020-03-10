@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  background-color: snow;
+}
+.select-btn{
+  color: goldenrod;
+  border: 1px double silver;
+  background-color: black;
+  width: 50px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.select-btn:focus{
+  border: 2px double violet;
+  background-color: blueviolet;
+}
+
+.answers{
+ 
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.answer-text{
+  width: 500px;
+  font-size: 25px;
+  background-color: lavender;
+  border: 2px solid blueviolet;
+  color: black;
+  margin-left: 20px;
+}
+.container{
+  text-align: center;
+}
